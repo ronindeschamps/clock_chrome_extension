@@ -1,0 +1,39 @@
+@font-face {
+ font-family: ni;
+ src: url("fonts/Niagato.ttf");
+}
+
+body, html {
+ margin: 0;
+ padding: 0;
+}
+
+.everything {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ height: auto;
+ width: 330px;
+ border: 7px solid rgb(158, 62, 123);
+ background-color: rgb(248, 173, 187);
+ background-image: url('images/flowers1.png'); /* Set the background image */
+ background-size: cover; /* Ensure the image covers the entire container */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.time {
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-right: 28px;
+ margin-top: -4px;
+ font-size: 19px;
+ height: 80px;
+}
+.title {
+ font-family: ni;
+ font-size: 24px;
+ margin-top: -24px;
+ margin-left: 6px;
+}
+
